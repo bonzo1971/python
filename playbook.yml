@@ -1,0 +1,10 @@
+-
+    name: Run Rancid Mongo Script
+    hosts: mongo
+    become: true
+    become_user: root
+    tasks:
+    -
+      name: Run_python_script
+      command: /usr/bin/python3.4 /home/rato/python_scripts/rancid/rancidinvmongo.py
+
