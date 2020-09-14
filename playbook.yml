@@ -1,7 +1,7 @@
 -
     name: Run Rancid Mongo Script
     hosts: all
-    become: true
+   # become: true
     become_user: root
     tasks:
     -
